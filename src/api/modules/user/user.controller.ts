@@ -75,7 +75,7 @@ export class UserController {
 
       return response.json({
         id: user.id,
-        name: user.email,
+        name: user.name,
         email: user.email,
         createdAt: user.createdAt,
         updatedAt: user.updatedAt,
